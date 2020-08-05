@@ -26,9 +26,10 @@ function update_roster(PLAYERS) {
     }
 }
 
-update_roster(PLAYERS)
 
-    document.querySelector("div[data-number='7']").remove()
     
     /***** Deliverable 4 *****/
+    update_roster(PLAYERS)
+
+    document.querySelector("div[data-number='7']").remove()
 });
