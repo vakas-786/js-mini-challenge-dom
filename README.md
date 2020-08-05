@@ -26,6 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
+Content needs to be loaded to prevent null from showing up. Added a DOMContentLoaded to solve the problem. 
 
 ```
 
